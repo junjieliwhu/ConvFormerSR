@@ -14,28 +14,40 @@ ConvFormerSR first obtains the shallow feature of LR through a convolutional lay
 
 ![fig1](/fig/fig1.png)
 
-# Comparison
+# Result
 
-We use the GID and Potsdam datasets, respectively, to experimentally compare MSNet of both data models with some mature semantic segmentation network models DeepLabV3+, FPN, PSPNet, UNet, and RTFNet.
+Qualitative comparison of our model with other works on the HLSSR-GJ dataset.
 
-![fig5a](/figs/fig5a.png)
+![fig2](/fig/fig2.png)
 
-![fig7a](/figs/fig7a.png)
+# Training and Testing
 
-# Credits
+Please use [BasicSR](https://github.com/XPixelGroup/BasicSR), it is an open-source image and video restoration toolbox based on PyTorch.
+
+# Citation 
 
 If you find this work useful, please consider citing:
 
 ```bibtex
-@article{tao2022msnet,
-  title={MSNet: multispectral semantic segmentation network for remote sensing images},
-  author={Tao, Chongxin and Meng, Yizhuo and Li, Junjie and Yang, Beibei and Hu, Fengmin and Li, Yuanxi and Cui, Changlu and Zhang, Wen},
-  journal={GIScience \& Remote Sensing},
-  volume={59},
-  number={1},
-  pages={1177--1198},
-  year={2022},
-  publisher={Taylor \& Francis}
-}
+@ARTICLE{10345595,
+  author={Li, Junjie and Meng, Yizhuo and Tao, Chongxin and Zhang, Zhen and Yang, Xining and Wang, Zhe and Wang, Xi and Li, Linyi and Zhang, Wen},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={ConvFormerSR: Fusing Transformers and Convolutional Neural Networks for Cross-Sensor Remote Sensing Imagery Super-Resolution}, 
+  year={2024},
+  volume={62},
+  number={},
+  pages={1-15},
+  doi={10.1109/TGRS.2023.3340043}}
 ```
+
+# Reference
+
+Some of the codes in this repo are borrowed from:  
+- [SwinIR](https://github.com/JingyunLiang/SwinIR)  
+- [BasicSR](https://github.com/XPixelGroup/BasicSR)  
+- [DANet](https://github.com/junfu1115/DANet)  
+- [CBAM](https://github.com/luuuyi/CBAM.PyTorch)  
+
+
+
 
