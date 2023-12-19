@@ -12,7 +12,7 @@ Super-resolution (SR) techniques based on deep learning have a pivotal role in i
 
 ConvFormerSR first obtains the shallow feature of LR through a convolutional layer, and then obtains the deep features through the parallel transformer branch and CNN branch, respectively, and fuses the features of the two branches through the FFM module. Subsequently, a global residual connection is used to fuse low-level features and deep features, and finally the pixel-shuffle is used for upsampling to obtain SR results.
 
-![fig1](/figs/fig1.png)
+![fig1](/fig/fig1.png)
 
 # Comparison
 
